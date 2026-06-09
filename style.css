@@ -16,8 +16,8 @@ header nav{
 }
 
 .custom-btn{
-    border-color: #fff !important;
-    color: #fff !important;
+    border: 2px solid #fff;
+    color: #fff;
 }
 .custom-btn:hover {
     background: #363636;
