@@ -15,7 +15,11 @@ header nav{
     padding: 15px;
 }
 
-uk-button{
+.custom-btn{
     border-color: #fff !important;
     color: #fff !important;
+}
+.custom-btn:hover {
+    background: #363636;
+    color: white;
 }
