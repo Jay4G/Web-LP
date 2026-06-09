@@ -14,34 +14,26 @@
 <body>
 
     <header uk-sticky="start: 100; animation: uk-animation-slide-top;">
-    <nav class="uk-margin-auto uk-navbar-container uk-navbar-transparent" uk-navbar>
-        <div class="uk-container">
+    <nav class="uk-navbar-container" uk-navbar>
 
-            <div class="uk-grid uk-flex-middle" uk-grid>
+  <!-- Left (empty or future nav) -->
+  <div class="uk-navbar-left"></div>
 
-                <!-- Empty left column -->
-                <div class="uk-width-expand"></div>
+  <!-- Center (logo stays perfectly centered) -->
+  <div class="uk-navbar-center">
+    <a class="uk-logo" href="#">
+        <img src="Lodha-90-White-Logo.svg" alt="Loda Logo">
+    </a>
+  </div>
 
-                <!-- Logo -->
-                <div class="uk-width-auto uk-text-center">
-                    <a href="#">
-                        <img src="Lodha-90-White-Logo.svg" alt="Logo" width="120">
-                    </a>
-                </div>
+  <!-- Right (button sticks to far right) -->
+  <div class="uk-navbar-right">
+    <a class="uk-button uk-button-primary" href="#contact">
+      Make Enquiry
+    </a>
+  </div>
 
-                <!-- Enquiry Button -->
-                <div class="uk-margin-auto-left uk-text-right">
-                    <a href="#contact"
-                       class="uk-button uk-button-primary"
-                       uk-scroll>
-                        Make Enquiry
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-    </nav>
+</nav>
 </header>
 
     <!-- Features Carousel Section -->
