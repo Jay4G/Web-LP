@@ -14,3 +14,8 @@ header nav{
     background-color: #e8e7e1 !important;
     padding: 15px;
 }
+
+uk-button{
+    border-color: #fff !important;
+    color: #fff !important;
+}
