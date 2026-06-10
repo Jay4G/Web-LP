@@ -28,10 +28,12 @@ header nav{
     margin-left: 20px;
     text-decoration: underline;
     text-underline-offset: 2px;
+    transition: transform 0.2s ease-in-out;
 }
 
 .residence-dec:hover{
     color: #7f7f7f;
     text-decoration: underline;
     text-underline-offset: 2px;
+    transform: scale(1.05);
 }
