@@ -26,6 +26,13 @@ header nav{
 }
 .residence-dec{
     border-bottom: 2px solid #7f7f7f;
-    padding: 0.5px;
     margin-left: 20px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.residence-dec:hover{
+    color: #7f7f7f;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
